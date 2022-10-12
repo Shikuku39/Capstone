@@ -1,0 +1,34 @@
+SQL QUERIES
+:::::::::::
+
+CREATING TABLES
+'''''''''''''''
+
+CREATE TABLE course (
+	id INT AUTO_INCREMENT,
+  	course VARCHAR(100),
+  	PRIMARY KEY (id)
+),
+CREATE TABLE organisation (
+	id INT AUTO_INCREMENT,
+  	org_name VARCHAR(100),
+  	location VARCHAR(100),
+  	admitted_student INT,
+),
+CREATE TABLE organisation (
+	id INT AUTO_INCREMENT,
+  	adm_no INT,
+  	std_name VARCHAR(100),
+  	gender VARCHAR(15),
+  	id_no INT(20)
+  	county VARCHAR(100),
+  	year_of_birth INT(4),
+  	date_admitted TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+);
+
+
+INSERTING VALUES
+''''''''''''''''
+INSERT INTO <table_name> (column_names) VALUES ('C
+column_values')
+
